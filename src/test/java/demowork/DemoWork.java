@@ -20,6 +20,8 @@ public class DemoWork
 		  
 		  driver.get("https://www.flipkart.com");
 		  
+		  driver.close();
+		  
 
 		  
 	  }
