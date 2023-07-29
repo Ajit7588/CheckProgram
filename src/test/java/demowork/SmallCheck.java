@@ -3,13 +3,17 @@ package demowork;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class SmallCheck {
+public class SmallCheck 
+{
 
-	public static void main(String[] args) 
+	@Test
+	public void fly()
 	{
+		
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions option=new ChromeOptions();
 		option.addArguments("--remote-allow-origins=*");

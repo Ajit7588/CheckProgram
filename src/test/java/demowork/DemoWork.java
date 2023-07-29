@@ -9,7 +9,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DemoWork 
 {
-	 @Test(priority = 3)
+	 @Test
 	  public void flipkart() 
 	  {
 		  
@@ -20,7 +20,7 @@ public class DemoWork
 		  
 		  driver.get("https://www.flipkart.com");
 		  
-		  driver.close();
+		  
 		  
 		  System.out.println("Ajit kumar Tung");
 		  
